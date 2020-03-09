@@ -1,0 +1,23 @@
+#app2{
+    border: 1px solid red;
+}
+
+#app2 .tab-bar{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+#app2 .tab-bar li{
+    width: 50%;
+    border: 3px solid blue;
+
+}
+#app2 .tab-bar li.selected{
+    background: blue;
+}
+#app2 .tab-content li{
+    display: none;
+}
+#app2 .tab-content li.active{
+    display: block;
+}
